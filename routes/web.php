@@ -19,5 +19,5 @@ Route::get('/', function () {
 
 
 Route::get('/movies', function () {
-    return view('movies');
-})->name('movies');
+    return view('movies.index');
+})->name('movies.index');
