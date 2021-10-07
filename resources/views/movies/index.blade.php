@@ -16,7 +16,7 @@
                 <p>{{$movie->nationality}}</p>
                 <p>{{$movie->date}}</p>
                 <p>{{$movie->vote}}</p>
-                <br>
+                <hr>
             </div>
                 
             @empty
