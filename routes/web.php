@@ -19,5 +19,6 @@ Route::get('/', function () {
 
 
 Route::get('/movies', function () {
-    return view('movies.index');
+    $movies = [];
+    return view('movies.index', compact('movies'));
 })->name('movies.index');
